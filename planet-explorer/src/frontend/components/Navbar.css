@@ -1,0 +1,63 @@
+.navbar {
+  width: 100%;
+  height: 65px;
+  background-color: #1e2035;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 25px;
+  box-sizing: border-box;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Left title */
+.nav-left {
+  font-size: 22px;
+  font-weight:580;
+}
+
+/* Right section - all links + buttons */
+.nav-right {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav-right a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-right a:hover {
+  color: #7ab6ff;
+}
+
+/* Buttons */
+.btn {
+  padding: 6px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.login {
+  background-color: #3c82ff;
+}
+
+.signup {
+  background-color: #6c5ce7;
+}
+
+.login:hover,
+.signup:hover {
+  opacity: 0.9;
+}

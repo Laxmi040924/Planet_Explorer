@@ -1,0 +1,21 @@
+
+# Node
+node_modules/
+planet-explorer/node_modules/
+planet-explorer/dist/
+
+# Java
+planet-explorer-backend/target/
+*.class
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

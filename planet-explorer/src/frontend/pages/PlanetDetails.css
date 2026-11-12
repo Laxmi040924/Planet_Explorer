@@ -1,0 +1,128 @@
+html, body{
+  margin:0;
+  padding:0;
+  height:100%;
+  background:#020617;
+}
+.planet-details{
+  min-height:100vh;
+  background: radial-gradient(circle at top,#0b1d3a,#020617);
+  color:white;
+  font-family:Poppins, sans-serif;
+}
+
+.back-btn{
+  margin:20px;
+  padding:8px 14px;
+  background:#111827;
+  color:white;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.banner{
+  width:100%;
+  height:100vh;
+  position:relative;
+  overflow:hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #020617;
+  margin-bottom: 0;
+}
+
+.banner img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position: center;
+  display: block;
+ }
+
+.banner-text{
+  position:absolute;
+  top:25%;
+  left:8%;
+  width:40%;
+}
+
+.banner-text h1{
+  font-size:3.2rem;
+  margin-bottom:10px;
+}
+
+.banner-text p{
+  font-size:1.1rem;
+  color:#e5e5e5;
+}
+
+/* ---------- MAIN SECTION ---------- */
+.info{
+  width: 75%;
+ margin: 40px auto 60px auto; 
+  color: white;
+  font-family: Poppins, sans-serif;
+}
+
+/* Section title */
+.info h2{
+  color:#7dd3fc;
+  margin: 35px 0 10px;
+  font-size: 1.7rem;
+}
+
+/* ---------- NICE CONTENT BOX ---------- */
+.info-box{
+  background: rgba(255,255,255,0.06);
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.4);
+  border:1px solid rgba(255,255,255,0.08);
+  line-height: 1.8;
+}
+
+/* ---------- FACTS GRID ---------- */
+.facts-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.fact-item{
+  background: rgba(0,0,0,0.35);
+  padding: 10px 14px;
+  border-radius: 10px;
+}
+
+/* ---------- MOONS TAG STYLE ---------- */
+.moon-tag{
+  background:#2563eb;
+  display:inline-block;
+  margin:8px 6px 0 0;
+  padding:6px 10px;
+  border-radius:8px;
+}
+
+/* ---------- BULLET POINTS ---------- */
+.info ul{
+  margin-top: 10px;
+  padding-left: 18px;
+}
+
+.info li{
+  margin-bottom: 6px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media(max-width:800px){
+  .facts-grid{
+    grid-template-columns: 1fr;
+  }
+}
+.planet-details{
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
